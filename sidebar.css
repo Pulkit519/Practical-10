@@ -61,10 +61,13 @@
     padding: 15px 25px;
     transition: 0.5s;
 }
+a i{
+    margin-right: 15px;
+}
 .sidebar ul li a:hover{
     border-left: 10px solid white;
 }
-a i
+.sidebar ul li a
 {
     margin-right: 15px;
 }
@@ -89,9 +92,13 @@ i{
     top:20px;
     left:50px;
 }
+#chk{
+    display: none;
+}
 .hide-btn{
     opacity: 0;
 }
+
 #chk:checked ~ .sidebar{
     left:0;
 }
