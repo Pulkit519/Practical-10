@@ -35,6 +35,7 @@
     margin:auto;
 } 
 .content p{
+    margin-top: 15px;
     text-align:justify;
 }
 .sidebar{
